@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'lato', sans-serif;
+}
+div#a{
+    height: 30px;
+    background-color:rgb(224, 224, 219);
+    text-align: center;
+    padding-top:10px;
+}
+
+div#a p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    color:red;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 110px;
+    background-color: white;
+}
+
+header .left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+header #logo img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+header .left .menu{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header form input{
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 5px;
+}
+header .buttons{
+    display: flex;
+    gap:14px;
+    font-size: 16px;
+}
+
+.sanpham div:hover{
+    transform: scale(1.1);
+}
+
+div.sanpham div{
+    margin: 30px;
+    text-align: center;
+    float: left;
+    width: 220px;
+    height: 380px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(252, 254, 255);
+    border-radius: 18px;
+}
+
+.sanpham div:hover{
+    transform: scale(1.1);
+}
+
+.anhsanpham {
+    width: 200px;
+    height: 280px;
+    margin-top: 2px;
+    border-radius: 8px;
+}
+
+.tensanpham {
+    text-align: center;
+    font-size: 14px;
+    padding: 3px;
+}
+.giaban {
+    text-align: center;
+    font-weight: bold;
+    color:red;
+}
+
+div.sanpham div a{
+    text-decoration: none;
+}
+div.sanpham div a:hover{
+    transform: scale();
+}
+.tensanpham:hover{
+    color:red;
+}
+.giaban:hover{
+    color:red;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: rgb(175, 180, 180);
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 100px 30px;
+    border-radius: 40px 40px 0 0;
+}
+
+footer .lienhe{
+    display: flex;
+    justify-content: space-around;
+    gap:150px;
+}
+footer .lienhe .col h2{
+    text-align: center;
+}
+
+footer .lienhe .link{
+    padding-top: 20px;
+    font-size: 20px;
+}
+footer .lienhe .link a{
+    margin-right: 20px;
+}
+footer .lienhe .link a:hover{
+    color:red;
+}
+footer .diachi p{
+    padding-top: 20px;
+}
+
+footer .lienhe .thongtin h2{
+    text-align: center;
+}
+
+footer .lienhe .thongtin p{
+    padding-top: 10px;
+}
+
+footer hr{
+    width: 100%;
+    font-size: 2px;
+    margin-top: 10px;
+    border-color:black;
+}
+
+footer .copy {
+    margin-top: 20px;
+    font-size: 14px;
+}
